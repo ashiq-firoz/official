@@ -1,10 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/* Reset Code */
+
 body {
     padding: 0;
     margin: 0;
@@ -116,7 +110,7 @@ a.move-top {
 
 /* banner */
 .banner-top1 {
-    background: url(../images/banner2.jpg) no-repeat top;
+    background: url(../images/red.jpg) no-repeat top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
