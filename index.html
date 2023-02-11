@@ -44,7 +44,7 @@
 				<div class="container">
 					<div class="banner-text text-center">
 						<h1><a href="index.html" class="logo text-wh text-uppercase font-weight-light">Ashiq Firoz</a></h1>
-						<p class="text-bl text-li mt-3" style="font-weight: bolder;">hello hi</p>
+						<p class="text-bl text-li mt-3" style="font-weight: bolder;" id="Start"></p>
 						<div class="social-icons mt-4">
 							<ul class="w3pvt-webits_social_list list-unstyled">
 								<li>
@@ -57,9 +57,12 @@
 										<h1><span class="fa fa-linkedin"></span></h1>
 									</a>
 								</li>
+								<li>
 									<a href="https://twitter.com/AshiqFiroz08" target="_blank">
 										<h1><span class="fa fa-twitter"></span></h1>
 									</a>
+								</li>
+								<li>
 									<a href="https://github.com/ashiq-firoz" target="_blank">
 										<h1><span class="fa fa-github"></span></h1>
 									</a>
@@ -271,10 +274,24 @@
 			</div>
 		</div>
 	</footer>
+	
 	<!-- //footer -->
 	<!-- move top icon -->
 	<a href="#home" class="move-top text-center"></a>
 	<!-- //move top icon -->
+	
+	<!--start script-->
+	<script>
+		var word = "Hello Hi!";
+		var i = 0;
+		const interval = SetInterval(welcome,500);
+		function welcome(){
+		   if(i==9){
+			   clearInterval(interval);
+		   }
+		   document.getElementById("Start").innerHTML += word[i];
+		   i = i+1;
+		}
 	
 	
 
