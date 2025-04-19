@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { NavBar } from "@/components/nav-bar"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { ArrowDown, Github, Linkedin, Mail, Brain, Code, Database, Cloud } from "lucide-react"
+import { ArrowDown, Github, Linkedin, Mail, Brain, Code, Database, Cloud, BookOpen } from "lucide-react"
 import { useEffect, useState } from "react"
 
 const fadeInAnimationVariants = {
@@ -108,7 +108,9 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-background text-foreground">
-      <NavBar />
+      <div className="hidden md:block">
+        <NavBar />
+      </div>
       
       {/* Hero Section */}
       <motion.section
@@ -174,7 +176,15 @@ export default function Home() {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com/in/ashiqfiroz"
+              href="https://openreview.net/profile?id=~Ashiq_Firoz1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <BookOpen className="w-6 h-6" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ashiq-firoz-30335a203/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -182,7 +192,7 @@ export default function Home() {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="mailto:contact@ashiqfiroz.com"
+              href="mailto:ashiqfiroz08@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="w-6 h-6" />
@@ -196,7 +206,9 @@ export default function Home() {
           transition={{ duration: 1, delay: 1 }}
           className="absolute bottom-8 left-1/2 -translate-x-1/2"
         >
+          <a href="#about">
           <ArrowDown className="w-6 h-6 animate-bounce" />
+          </a>
         </motion.div>
       </motion.section>
 
@@ -372,14 +384,14 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-6">
             <Button size="lg" asChild>
-              <a href="mailto:contact@ashiqfiroz.com">
+              <a href="mailto:ashiqfiroz08@gmail.com">
                 <Mail className="w-5 h-5 mr-2" />
                 Email Me
               </a>
             </Button>
             <Button size="lg" variant="outline" asChild>
               <a
-                href="https://linkedin.com/in/ashiqfiroz"
+                href="https://www.linkedin.com/in/ashiq-firoz-30335a203/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
