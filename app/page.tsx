@@ -168,7 +168,7 @@ export default function Home() {
             className="flex items-center justify-center gap-6 mt-12"
           >
             <a
-              href="https://github.com/ashiqfiroz"
+              href="https://github.com/ashiq-firoz"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
