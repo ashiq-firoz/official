@@ -228,7 +228,7 @@ export default function Home() {
             </div>
             <div className="text-left space-y-4">
               <p className="text-lg">
-                I'm a passionate AI/ML researcher and full-stack developer with expertise in deep learning, computer vision, and natural language processing. I specialize in building scalable AI solutions and deploying them in production environments.
+                I&apos;m a passionate AI/ML researcher and full-stack developer with expertise in deep learning, computer vision, and natural language processing. I specialize in building scalable AI solutions and deploying them in production environments.
               </p>
               <p className="text-muted-foreground">
                 With a strong background in both research and development, I bridge the gap between cutting-edge AI research and practical software engineering.
@@ -368,7 +368,7 @@ export default function Home() {
         >
           <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
           <p className="text-lg text-muted-foreground mb-8">
-            I'm always open to new opportunities and collaborations.
+            I&apos;m always open to new opportunities and collaborations.
           </p>
           <div className="flex justify-center gap-6">
             <Button size="lg" asChild>
